@@ -169,6 +169,15 @@ nav ul{
     height: 50vh;
 }
 
+
+#services{
+    margin-top: 120px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
 .services-grid img {
     height: 7vh;
 }
@@ -180,11 +189,54 @@ nav ul{
     align-items: center;
 }
 
-.services span{
+.servicesTitle h2{
+    font-family: "Baloo 2";
+    font-size: 40px;
+    margin: 0;
+    color: #695aa6;
+    font-weight: 800;
+    margin-bottom: 70px;
+}
+
+.servicesTitle span{
     width: auto;
+    color: #77767a;
 }
 
 .services-grid{
+    width: 140vh;
     display: flex;
     justify-content: space-evenly;
+    gap: 35px;
 }
+
+.service-item{
+    height: 27vh;
+    width: 150vw;
+    border: solid 1px rgba(128, 128, 128, 0.296);
+    border-radius: 3px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: "Baloo 2";
+}
+
+.service-item h3{
+    color: #695aa6;
+    font-size: 20px;
+    font-weight: 800;
+}
+
+.sp{
+    color: #77767a;
+    font-family: "Noto Sans JP";
+}
+
+.soustitre{
+    font-family: "Baloo 2";
+    font-size: 40px;
+    margin: 0;
+    color: #695aa6;
+    font-weight: 800;
+    margin-bottom: 70px;}
