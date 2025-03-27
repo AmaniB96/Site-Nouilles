@@ -1,0 +1,12 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    background:linear-gradient(180deg, #8c309415 50%, rgb(255, 255, 255) 90%),url('../images/header.jpg') no-repeat;
+    background-size: cover;
+    background-position: 50% 25%;
+    height: 60vh;
+    width: 100vw;
+}
