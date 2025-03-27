@@ -119,3 +119,11 @@ nav ul{
     display: flex;
     justify-content: space-around;
 }
+
+.hero-image{
+    width: 30vw;
+}
+
+.hero-image img{
+    height: 50vh;
+}
