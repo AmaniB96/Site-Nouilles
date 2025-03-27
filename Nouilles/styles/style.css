@@ -37,15 +37,18 @@ header{
     font-size: 30px;
     font-weight: 700;
     color: white;
+    
 }
 
 nav{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
-    color: white;
     height: 100px;
-    
+    position: sticky;
+    top:0;
+    margin-bottom: -100px;
+ 
 }
 
 a{color: white;
@@ -67,6 +70,7 @@ nav ul{
     justify-content: center;
     align-items: center;
     width: 85vw;
+    
 
     }
 
@@ -91,6 +95,7 @@ nav ul{
     padding-bottom: 0;
     width: 35vh;
     height: auto;
+    margin-top: 200px;
 }
 
 #hero p{
@@ -133,7 +138,7 @@ nav ul{
     margin-top: 40px;
 }
 
-.about-text p, span{
+.about-text p, .about-text span{
     width: 40vw;
     font-family:"Noto Sans JP";
     color: #77767a;
@@ -162,5 +167,24 @@ nav ul{
 
 .hero-image img{
     height: 50vh;
-    
+}
+
+.services-grid img {
+    height: 7vh;
+}
+
+.servicesTitle{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.services span{
+    width: auto;
+}
+
+.services-grid{
+    display: flex;
+    justify-content: space-evenly;
 }
