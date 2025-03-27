@@ -241,13 +241,20 @@ nav ul{
     font-weight: 800;
     margin-bottom: 70px;}
 
-
-
 .sec{
     margin-top: 120px;
     display: flex;
     justify-content: center;
     flex-direction: column;
     align-items: center;
+}
 
+.portfolio-grid{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+}
+
+.portfolio-grid img{
+    height: 45vh;
 }
