@@ -2,9 +2,7 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Baloo+2:wght@400..800&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Lilita+One&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Noto+Sans+JP:wght@100..900&family=Poiret+One&family=Roboto:ital,wght@0,100..900;1,100..900&family=Ubuntu+Sans:ital,wght@0,100..800;1,100..800&display=swap');
 
-html{
-    overflow-x: hidden;
-    box-sizing: border-box;}
+html{overflow-x: hidden;}
 
 .noto-sans-jp {
     font-family: "Noto Sans JP", sans-serif;
@@ -25,23 +23,14 @@ body{
     padding: 0;
     font-family:"Noto Sans JP";
     background-color: white;
-    position: relative;
-    min-height: 100vh;
-}
-
-html, body {
-    overflow-x: hidden;
-    width: 100%;
-    margin: 0;
-    padding: 0;
 }
 
 header{
-    background:linear-gradient(180deg, #8c309415 50%, rgb(255, 255, 255) 100%),url('../images/header.jpg') no-repeat;
+    background:linear-gradient(180deg, #695aa628 50%, rgb(255, 255, 255) 100%),url('../images/header.jpg') no-repeat;
     background-size: cover;
     background-position: 50% 25%;
     height: 70vh;
-    width: 100%;
+    width: 100vw;
 }
 
 .logo span{
@@ -57,12 +46,11 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     height: 100px;
-    top:0;
-    left:50px;
     position: sticky;
+    top:0;
     margin-bottom: -100px;
-    z-index: 1000; 
-
+    z-index: 10000;
+    background:linear-gradient(180deg, #695aa662 50%, #695aa600 100%)
 }
 
 a{color: white;
@@ -83,9 +71,7 @@ nav ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 100%;
-    padding: 0 20px;
-    box-sizing: border-box;
+    width: 85vw;
     
 
     }
@@ -566,32 +552,14 @@ footer{
     font-size: 15px;
 }
 
-.spanText{
-    font-weight: 600;
-    color:#77767a;
-}
-
-#iconBlog{
-    margin-left: 7px;
-    margin-right: 7px;
-}
-
-.portfolio-item{
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-}
-
-
-/* Mobile styles (under 768px) */
 @media (min-width:320px) and (max-width: 767px) {
-    /* nav {
+    nav {
         flex-direction: row;
         gap: 12px;
         height: auto;
         padding: 10px;
         position:absolute;
-    } */
+    }
 
     .logo span{
         font-size: 20px;
