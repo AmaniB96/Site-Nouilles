@@ -598,6 +598,7 @@ footer{
         gap: 10px;
     }
 
+
     .blog-post {
         flex-direction: column;
         width: 95%;
@@ -614,10 +615,15 @@ footer{
         box-sizing: border-box;
     }
 
+    #hero button{
+        margin-left: 0;
+    }
+
     #hero h1, #hero h2 {
         font-size: 40px;
         width: 90%;
         text-align: center;
+        align-items: center;
     }
 
     #hero p {
