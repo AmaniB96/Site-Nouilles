@@ -423,12 +423,21 @@ blockquote{
     font-weight: 800;
 }
 
+.blog-grid{
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
 .blog-post img{
     height: 40vh;
+    width: 40vh;
+    object-fit: cover;
 }
 
 .blog-post{
     display: flex;
+    border: 1px rgba(157, 155, 155, 0.296) solid;
 }
 
 .textBlog{
@@ -436,7 +445,8 @@ blockquote{
     padding-right: 30px;
     width: 45vw;
     font-family:"Noto Sans JP";
-    color: #77767a;
+    color: #303033;
+    font-size: 14px;
 }
 
 .textBlog h3{
@@ -444,4 +454,9 @@ blockquote{
     font-size: 20px;
     color: #695aa6;
     font-weight: 800;
+}
+
+.textBlog a{
+    color: #695aa6;
+    ;
 }
