@@ -378,32 +378,48 @@ nav ul{
 }
 
 .testimonial-card{
-    border: 1px grey solid;
-    width: 40%;
+    border: 1px rgba(157, 155, 155, 0.296) solid;
+    width: 35%;
     display: flex;
     justify-content: space-around;
     align-items: center;
+    position: relative;
 }
 
 .testimonial-card img{
     border-radius: 50%;
     height: 10vh;
+    border: white solid 5px;
 }
 
 .imgtesti{
     position: absolute;
-    left: 3.8%;
+    left: -8%;
 }
+
 
 .testimonial-grid{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    gap:75px
 
 }
 
-.testiText{
+blockquote{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: start;
+    margin-inline-start: 70px;
+    color:#77767a;
 }
+
+.testiText p{
+    margin-block-start: 1em;
+    margin-inline-start: 70px;
+    font-family: "Baloo 2";
+    font-size: 20px;
+    color: #695aa6;
+    font-weight: 800;
+}
+
