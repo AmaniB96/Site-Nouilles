@@ -502,20 +502,23 @@ blockquote{
 }
 
 .barre{
-    background-color: #77767a91;
+    background-color: #6e6d7123;
+    height: 2px;
+    border: none;
+
 }
 
 .reseaux{
     display: flex;
     gap: 10px;
     justify-content: space-between;
-    margin-top: 35px;
-    padding-bottom: 50px;
+    margin-top: 10px;
+
 }
 
-#fb, #x, #gram {height: 25px;
-width: 25px;
-border: solid white 2px;
+#fb, #x, #gram, #g, #pin, #rss {height: 35px;
+width: 35px;
+border: solid rgb(98, 95, 95) 2px;
 border-radius: 50%;
 display: flex;           
 justify-content: center; 
@@ -525,7 +528,7 @@ align-items: center;
 footer span{color: white;
     font-family: "roboto", sans-serif;}
 
-.face, .twi, .insta {
+.face, .twi, .insta, .pinterest, .rsslogo, .google {
         display: flex;
         align-items: center;
         gap: 8px;
@@ -534,7 +537,16 @@ footer span{color: white;
 
 footer{
     padding-left:200px ;
-    padding-right:200px ;
+    padding-right:200px;
+    height: 10vh;
 }
 
-.logoreseaux{display: flex;}
+.logoreseaux{
+    display: flex;
+    gap:5px}
+
+.copy{
+    font-family: "Noto sans JP";
+    font-weight: 300;
+    font-size: 15px;
+}
