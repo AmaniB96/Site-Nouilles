@@ -25,12 +25,13 @@ body{
     padding: 0;
     font-family:"Noto Sans JP";
     background-color: white;
+    position: relative;
+    min-height: 100vh;
 }
 
 html, body {
     overflow-x: hidden;
     width: 100%;
-    position: relative;
     margin: 0;
     padding: 0;
 }
@@ -56,10 +57,12 @@ nav{
     justify-content: space-evenly;
     align-items: center;
     height: 100px;
-    position: sticky;
     top:0;
+    left:50px;
+    position: sticky;
     margin-bottom: -100px;
-    mix-blend-mode: difference;
+    z-index: 1000; 
+
 }
 
 a{color: white;
@@ -582,13 +585,13 @@ footer{
 
 /* Mobile styles (under 768px) */
 @media (min-width:320px) and (max-width: 767px) {
-    nav {
+    /* nav {
         flex-direction: row;
         gap: 12px;
         height: auto;
         padding: 10px;
         position:absolute;
-    }
+    } */
 
     .logo span{
         font-size: 20px;
