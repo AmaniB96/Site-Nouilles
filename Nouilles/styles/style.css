@@ -502,14 +502,13 @@ blockquote{
 }
 
 .barre{
-    width: 80%;
     background-color: #77767a91;
 }
 
 .reseaux{
     display: flex;
-    gap: 100px;
-    justify-content: center;
+    gap: 10px;
+    justify-content: space-between;
     margin-top: 35px;
     padding-bottom: 50px;
 }
@@ -532,3 +531,10 @@ footer span{color: white;
         gap: 8px;
         color: rgb(98, 95, 95);
     }
+
+footer{
+    padding-left:200px ;
+    padding-right:200px ;
+}
+
+.logoreseaux{display: flex;}
