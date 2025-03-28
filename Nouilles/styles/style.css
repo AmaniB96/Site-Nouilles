@@ -423,3 +423,10 @@ blockquote{
     font-weight: 800;
 }
 
+.blog-post img{
+    height: 35vh;
+}
+
+.blog-post{
+    display: flex;
+}
