@@ -71,9 +71,7 @@ nav ul{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 85vw;
-    
-
+    width: 100%;
     }
 
 #hero h1{
@@ -684,6 +682,7 @@ footer{
         width: 80%;
         padding: 0 30px;
     }
+
 
     blockquote{
         margin-right: 0;
