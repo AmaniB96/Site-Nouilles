@@ -598,6 +598,22 @@ footer{
         gap: 10px;
     }
 
+    .hero-image img {
+        height: 40vh;
+    }
+
+    .hero-image{
+        justify-content: center;
+    }
+
+    .about-text{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
 
     .blog-post {
         flex-direction: column;
@@ -613,6 +629,18 @@ footer{
     .textBlog {
         width: 100%;
         box-sizing: border-box;
+    }
+
+    #about{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .about-text p{
+        margin:0;
+        padding: 0;
+        width: 90%;
     }
 
     #hero button{
