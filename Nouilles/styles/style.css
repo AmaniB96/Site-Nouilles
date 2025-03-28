@@ -500,3 +500,35 @@ blockquote{
     margin-top: 15px;
     margin-bottom: 70px;
 }
+
+.barre{
+    width: 80%;
+    background-color: #77767a91;
+}
+
+.reseaux{
+    display: flex;
+    gap: 100px;
+    justify-content: center;
+    margin-top: 35px;
+    padding-bottom: 50px;
+}
+
+#fb, #x, #gram {height: 25px;
+width: 25px;
+border: solid white 2px;
+border-radius: 50%;
+display: flex;           
+justify-content: center; 
+align-items: center;     
+}
+
+footer span{color: white;
+    font-family: "roboto", sans-serif;}
+
+.face, .twi, .insta {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: rgb(98, 95, 95);
+    }
